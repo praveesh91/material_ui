@@ -1,0 +1,8 @@
+.actionContainer{
+    overflow-x: scroll;
+}
+
+.actionContainer .col-lg-3{
+    flex: 0 0 28%;
+    max-width: 28%;
+}

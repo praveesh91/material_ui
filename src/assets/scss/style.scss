@@ -1,0 +1,23 @@
+.backCol {
+    height: 40vh;
+    background-color: #63DAFB;
+    position: absolute;
+    width: 100%;
+    top: 82px;
+}
+body{
+    background-color: #E4E5E6 !important;
+    overflow: overlay !important;
+    padding: 0 !important;
+}
+.padding-btm{
+    padding-bottom: 1em;
+}
+.userName{
+    position: relative;
+    color: antiquewhite;
+    z-index: 9;
+}
+.MuiButton-containedSecondary{
+    border-radius: 20px !important;
+}
