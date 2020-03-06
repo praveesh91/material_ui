@@ -22,6 +22,9 @@
   .cust-card {
     background-color: #ededed;
   }
+  .container-card{
+    padding: 5px;
+  }
   
   .d-middle img {
     vertical-align: middle;
@@ -94,3 +97,6 @@
   tr.MuiTableRow-root.MuiTableRow-head {
     background-color: #F5F5F5;
   }
+  .MuiIconButton-colorPrimary {
+    color: #63DAFB !important;
+}

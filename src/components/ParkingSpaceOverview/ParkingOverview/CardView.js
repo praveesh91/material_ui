@@ -34,7 +34,7 @@ class CardView extends Component {
             <Grid container>
                     {this.state.cardData.map((e) => (
    
-                        <Grid item md={6} m={2}>
+                        <Grid key={e.id} item md={6} m={2} className="container-card">
                         <Card className="cust-card" style={{backgroundColor:'#ededed'}}>
                         <CardHeader
                             action={

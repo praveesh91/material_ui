@@ -40,10 +40,10 @@ toggleDrawer = (props) => {
         </Grid>
 
         <Grid container>
-          <Grid item sm={2}>
+          <div>
             <Sidebar openState={this.state.setIsOpen} />
-          </Grid>
-          <Grid item sm={10}>
+          </div>
+          <div style={{flex:'auto'}}>
             {/* <Switch>
               <Route path="/">
                 <ParkingManagement />
@@ -57,19 +57,15 @@ toggleDrawer = (props) => {
                 <Route path="/" exact component={Dashboard} />
                 <Route exact path="/parkOverview" component={ParkingManagement} />
               </Switch>
-              {/* <Switch>
-                <Route path="/" exact component={Dashboard}/>
-                <Route path="/parkOverview" exact component={ParkingManagement} />
-                <Redirect from="/" to="/dashboard"/>
-              </Switch> */}
               </BrowserRouter>
 
-          </Grid>
-
+          </div>
+        </Grid>
+        <Grid container>
           <Grid item xs={12}> 
             <Footer />
           </Grid>
-        </Grid>
+          </Grid>
       </div>
     );
   }

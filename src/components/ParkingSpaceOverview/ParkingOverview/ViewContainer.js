@@ -2,9 +2,9 @@ import React, { Component } from 'react'
 import { Scrollbars } from 'react-custom-scrollbars';
 import CardHeader from '@material-ui/core/CardHeader';
 import Card from '@material-ui/core/Card';
-import AppsIcon from '@material-ui/icons/Apps';
+import ViewModuleIcon from '@material-ui/icons/ViewModule';
 import IconButton from '@material-ui/core/IconButton';
-import ListIcon from '@material-ui/icons/List';
+import ViewListIcon from '@material-ui/icons/ViewList';
 import MapIcon from '@material-ui/icons/Map';
 import Button from '@material-ui/core/Button';
 
@@ -77,8 +77,8 @@ export class ViewContainer extends Component {
                         <CardHeader
                             action={
                                 <div>
-                                    <IconButton color={listType ? 'primary' : 'disabled'} onClick = {()=> {this.handleList()}}><ListIcon /></IconButton>
-                                    <IconButton color={CardType ? 'primary' : 'disabled'} onClick = {()=> {this.handleCard()}}><AppsIcon /></IconButton>
+                                    <IconButton color={CardType ? 'primary' : 'disabled'} onClick = {()=> {this.handleCard()}}><ViewModuleIcon /></IconButton>
+                                    <IconButton color={listType ? 'primary' : 'disabled'} onClick = {()=> {this.handleList()}}><ViewListIcon /></IconButton>
                                     <IconButton color={mapType ? 'primary' : 'disabled'}  onClick = {()=> {this.handleMap()}}><MapIcon /></IconButton>
                                 </div>
                             }

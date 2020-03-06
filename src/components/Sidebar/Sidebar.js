@@ -1,7 +1,7 @@
 import React from 'react';
 import clsx from 'clsx';
 import { makeStyles, useTheme } from '@material-ui/core/styles';
-import {Drawer, List} from '@material-ui/core';
+import {Drawer, List, Grid} from '@material-ui/core';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import CssBaseline from '@material-ui/core/CssBaseline';
@@ -145,6 +145,7 @@ function Sidebar(props) {
 
   return (
     <div className={classes.root}>
+      <Grid item xs={2}>
       <CssBaseline />
       <Drawer
         variant="permanent"
@@ -165,6 +166,7 @@ function Sidebar(props) {
           ))}
         </List>
       </Drawer>
+      </Grid>
       {/* <Dashboard /> */}
       {/* <main className={classes.content}>
         <div className={classes.toolbar} />
