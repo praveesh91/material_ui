@@ -12,7 +12,7 @@
     "chart.js": "^2.9.3",
     "classnames": "^2.2.6",
     "google-maps-react": "^2.0.2",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "react": "^16.13.0",
     "react-calendar": "^2.19.2",
     "react-chartjs-2": "^2.9.0",
